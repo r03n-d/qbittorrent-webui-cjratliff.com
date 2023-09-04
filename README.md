@@ -1,4 +1,4 @@
-# qBittorrent Web UI theme - cjratliff.com with fixed .torrent support for iOS[^1]
+# Dark qBittorrent Web UI theme with fixed .torrent support for iOS[^1]
 [^1]: Based on colorscheme from [cjratliff.com](https://cjratliff.com)
 
 ![Screenshot](qBittorrent-webui-theme-CJRatliff.com.jpg)
