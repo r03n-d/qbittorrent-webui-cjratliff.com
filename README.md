@@ -1,13 +1,14 @@
-# qBittorrent Web UI theme - cjratliff.com [^1]
+# qBittorrent Web UI theme - cjratliff.com with fixed .torrent support for iOS[^1]
 [^1]: Based on colorscheme from [cjratliff.com](https://cjratliff.com)
 
 ![Screenshot](qBittorrent-webui-theme-CJRatliff.com.jpg)
 
 ## Installation
-First, you need to download a copy of the latest release (or clone / download this repository for the latest).
-
+- [ ] Open a Terminal session.
+- [ ] `cd /etc/`
+- [ ] `git clone https://github.com/r03n-d/qbittorrent-webui-cjratliff.com.git`
 - [ ] Under Tools->Preferences->WebUI enable Use alternative WebUI.
-- [ ] Choose a location that points to `/path/to/qbittorrent-webui-cjratliff.com`
+- [ ] Choose `/etc/qbittorrent-webui-cjratliff.com`
 - [ ] Restart qBittorrent or refresh your browser for changes to take effect.
 
 You can also change these settings via the config file. The relevant entries are:
