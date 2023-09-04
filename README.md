@@ -15,5 +15,5 @@ You can also change these settings via the config file. The relevant entries are
 
 ```
 WebUI\AlternativeUIEnabled=true
-WebUI\RootFolder=/path/to/qbittorrent-webui-cjratliff.com
+WebUI\RootFolder=/etc/qbittorrent-webui-cjratliff.com
 ```
