@@ -6,7 +6,7 @@
 ## Installation
 - [ ] Open a Terminal session.
 - [ ] `cd /etc/`
-- [ ] `git clone https://github.com/r03n-d/qbittorrent-webui-cjratliff.com.git`
+- [ ] `sudo git clone https://github.com/r03n-d/qbittorrent-webui-cjratliff.com.git`
 - [ ] Under Tools->Preferences->WebUI enable Use alternative WebUI.
 - [ ] Choose `/etc/qbittorrent-webui-cjratliff.com`
 - [ ] Restart qBittorrent or refresh your browser for changes to take effect.
