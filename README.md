@@ -5,15 +5,15 @@
 
 ## Installation
 - [ ] Open a Terminal session.
-- [ ] `cd /etc/`
+- [ ] `cd /opt/`
 - [ ] `sudo git clone https://github.com/r03n-d/qbittorrent-webui-cjratliff.com.git`
 - [ ] Under Tools->Preferences->WebUI enable Use alternative WebUI.
-- [ ] Choose `/etc/qbittorrent-webui-cjratliff.com`
+- [ ] Choose `/opt/qbittorrent-webui-cjratliff.com`
 - [ ] Restart qBittorrent or refresh your browser for changes to take effect.
 
 You can also change these settings via the config file. The relevant entries are:
 
 ```
 WebUI\AlternativeUIEnabled=true
-WebUI\RootFolder=/etc/qbittorrent-webui-cjratliff.com
+WebUI\RootFolder=/opt/qbittorrent-webui-cjratliff.com
 ```
