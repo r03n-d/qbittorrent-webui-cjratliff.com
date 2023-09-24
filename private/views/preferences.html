@@ -1762,7 +1762,7 @@ Use ';' to split multiple entries. Can use wildcard '*'."></textarea>
                                 index = 2;
                                 break;
                         }
-                        $('contentlayout_select').getChildren('option')[index].setAttribute('selected', '');
+                        $('contentlayout_select').getChildren('option')[index].selected = true;
                         $('dontstartdownloads_checkbox').setProperty('checked', pref.start_paused_enabled);
                         switch (pref.torrent_stop_condition) {
                             case "None":
@@ -1775,7 +1775,7 @@ Use ';' to split multiple entries. Can use wildcard '*'."></textarea>
                                 index = 2;
                                 break;
                         }
-                        $('stopConditionSelect').getChildren('option')[index].setAttribute('selected', '');
+                        $('stopConditionSelect').getChildren('option')[index].selected = true;
                         $('deletetorrentfileafter_checkbox').setProperty('checked', pref.auto_delete_mode);
 
                         $('preallocateall_checkbox').setProperty('checked', pref.preallocate_all);
@@ -1958,7 +1958,7 @@ Use ';' to split multiple entries. Can use wildcard '*'."></textarea>
                         $('pex_checkbox').setProperty('checked', pref.pex);
                         $('lsd_checkbox').setProperty('checked', pref.lsd);
                         const encryption = pref.encryption.toInt();
-                        $('encryption_select').getChildren('option')[encryption].setAttribute('selected', '');
+                        $('encryption_select').getChildren('option')[encryption].selected = true;
                         $('anonymous_mode_checkbox').setProperty('checked', pref.anonymous_mode);
 
                         $('maxActiveCheckingTorrents').setProperty('value', pref.max_active_checking_torrents);
@@ -1995,7 +1995,7 @@ Use ';' to split multiple entries. Can use wildcard '*'."></textarea>
                                 maxRatioAct = 2;
                                 break;
                         }
-                        $('max_ratio_act').getChildren('option')[maxRatioAct].setAttribute('selected', '');
+                        $('max_ratio_act').getChildren('option')[maxRatioAct].selected = true;
                         updateMaxRatioTimeEnabled();
 
                         // Add trackers
